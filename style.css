@@ -1,0 +1,82 @@
+body {
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+pre{
+  font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center_txt{
+  text-align: center;
+  text-decoration: underline;
+}
+span{
+  color:blue;
+  background-color: rgb(240, 240, 240);
+}
+.head{
+  color: #06A85B;
+  text-align: center;
+  border-top:3px solid black;
+  border-bottom:3px solid black;
+  margin: 0px;
+}
+.a{
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  background-color: #06A85B;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 50px;
+}
+a{
+  height:200%;
+  text-decoration: none;
+}
+.hardik{
+  text-align: right;
+  text-decoration: underline;
+}
+tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+td,th{
+  text-align: left;
+}
+.note{
+  border-radius:10px;
+  padding-right:20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:  #F9FF8E;
+}
+.right{
+  text-align: right;
+}
+.icon{
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  background-color: #06A85B;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+lin{
+  color: #FF7929;
+}
+.red{
+ color: red;
+}
+.blue{
+  color: blue;
+}
+.big{
+  font-size: 40px;
+}

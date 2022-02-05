@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML basics</title>
+  <link rel="stylesheet" href="/HTML.tutorial/style.css">
+</head>
+
+<body>
+  <table width="100%">
+    <tr>
+      <td class="icon" style="text-align:left;"><a href="/HTML.tutorial/index.html" style="color:white"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNTRbByYmeZTPPzZpTEDoJVHwUKU48hml6qw&usqp=CAU" width="30px"></a></td>
+    </tr>
+  </table>
+ <h1 class="head">HTML basics</h1>
+ <table width="100%">
+     <tr></tr>
+     </tr>
+     <tr>
+       <td class="icon" style="text-align:center;"><a href="/HTML.tutorial/Chapter_1.html" style="color:white">&lt Previous</a></td>
+       <td class="icon" style="text-align:center;width: 50%;"><a href="/HTML.tutorial/Chapter_3.html" style="color:white">Next &gt</a></td>
+     </tr>
+ </table>
+   <p>•In this chapter we will show you some basic examples of HTML. <br> <br>•You will also learn more tags.</p>
+   <h2 class="center_txt">Html documents</h2>
+   <p>•All HTML documents must start with a document type declaration: &lt<span>!DOCTYPE html</span>&gt.</p>
+   <p>•The HTML document it self begins with &lt<span>html</span>&gt and ends with &lt<span>/html</span>&gt.</p>
+   <p>•The visible part of HTML document is between &lt<span>body</span>&gt and &lt<span>/body</span>&gt.</p>
+<div class="code" style="border: 2px solid seagreen; border-left:6px solid seagreen">
+  <h4>Example:</h4>
+  <pre>
+ &lt<span>!DOCTYPE html</span>&gt
+  &lt<span>html</span>&gt
+  &lt<span>head</span>&gt
+   &lt<span>title</span>&gt My first website &lt<span>/title</span>&gt
+  &lt<span>/head</span>&gt
+  
+  &lt<span>body</span>&gt
+   &lt<span>h1</span>&gt My first heading &lt<span>/h1</span>&gt
+   &lt<span>hr</span>&gt
+   &lt<span>p</span>&gt My first paragraph &lt<span>p</span>&gt
+  &lt<span>/body</span>&gt
+  &lt<span>/html</span>&gt
+  </pre>
+  <h4>Output:</h4>
+  <h1>My first heading</h1>
+  <hr>
+  <p>My first paragraph</p>
+</div>
+<h3 class="center_txt">The &lt<span>!DOCTYPE</span>&gt declaration</h3>
+<p>The &lt<span>!DOCTYPE</span>&gt declaration represents the document type, and helps browsers to display web pages correctly.</p>
+<p>It must only appear once, at the top of the page (before any HTML tags).</p>
+<p>The &lt<span>!DOCTYPE</span>&gt declaration for HTML5 is:</p>
+<pre style="border: 2px solid seagreen; border-left:6px solid seagreen">
+    &lt<span>!DOCTYPE html</span>&gt
+</pre>
+<h3 class="center_txt">HTML Headings</h3>
+<p>•HTML headinds are defined with &lt<span>h1</span>&gt to &lt<span>h6</span>&gt tags.</p>
+<p>•&lt<span>h1</span>&gt defines the most important heading and &lt<span>h6</span>&gt defines the least important heading.</p>
+<div style="border: 2px solid seagreen; border-left:6px solid seagreen">
+  <h4>Example:</h4>
+  <pre>
+   &lt<span>h1</span>&gt This is heading 1 &lt<span>/h1</span>&gt
+   &lt<span>h2</span>&gt This is heading 2 &lt<span>/h2</span>&gt
+   &lt<span>h3</span>&gt This is heading &lt<span>/h3</span>&gt
+  </pre>
+  <h4>Output</h4>
+  <h1>This is a heading 1</h1>
+  <h2>This is a heading 2</h2>
+  <h3>This is a heading 3</h3>
+</div>
+<h3 class="center_txt">HTML Paragraphs</h3>
+<p>•HTML paragraphs are defined with the &lt<span>p</span>&gt tag:</p>
+<div style="border: 2px solid seagreen; border-left:6px solid seagreen">
+  <h4>Example:</h4>
+  <pre>
+    &lt<span>p</span>&gt This is a paragraph. &lt<span>/p</span>&gt
+  </pre>
+</div>
+<h3 class="center_txt">HTML links</h3>
+<p>•HTML links are defined with &lt<span>a</span>&gt tag.</p>
+<div style="border: 2px solid seagreen; border-left:6px solid seagreen">
+  <h4>Example:</h4>
+  <p>
+    &lt<span>a href=<lin>"https://m.youtube.com/"</lin></span>&gt YOUTUBE &lt<span>/a</span>&gt
+  </p>
+  <h4>Output:</h4>
+  <a href="https://m.youtube.com/">YOUTUBE</a>
+</div>
+<p>•The link's destination is specified in the <span>href</span> attribute. </p>
+<p>•Attributes are used to provide additional information about HTML elements.</p>
+<p>•You will learn more about attributes in a later chapter.</p>
+<h3 class="center_txt">HTML Images</h3>
+<p>•HTML images are defined with &lt<span>img</span>&gt tag.</p>
+<p>•The source file (<span>src</span>), alternative text (<span>alt</span>), <span>width</span>, and <span>height</span> are provided as attributes:</p>
+<div style="border: 2px solid seagreen; border-left:6px solid seagreen">
+  <h4>Example:</h4>
+  <p>
+    &lt<span>img src=<lin>"/Images/images (joker).jpeg"</lin> alt=<lin>"picture of joker"</lin> width=<lin>"300px"</lin></span>&gt
+  </p>
+  <h4>Output:</h4>
+  <img src="/HTML.tutorial/images (joker).jpeg" width="300px">
+</div>
+<table width="100%">
+     <tr></tr>
+     </tr>
+     <tr>
+       <td class="icon" style="text-align:center;"><a href="/HTML.tutorial/Chapter_1.html" style="color:white">&lt Previous</a></td>
+       <td class="icon" style="text-align:center;width: 50%;"><a href="/HTML.tutorial/Chapter_3.html" style="color:white">Next &gt</a></td>
+     </tr>
+ </table>
+</body>
+
+</html>
